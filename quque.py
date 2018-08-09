@@ -1,6 +1,7 @@
 
 # queue is a datastructure that stores data in a manner
-# that first in first out(FIFO)
+# that first in first out(FIFO). Queue suppose to be faster than
+# a list, this implementation is only for practice purpose.
 class queue:
     def __init__(self, firstItem=None):
         self.data = [firstItem]
